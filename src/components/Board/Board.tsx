@@ -47,7 +47,7 @@ const Board = ({xIsNext, squares, onPlay}: Props) => {
     if(winner){
       status = "Winner: " + winner.player;
     }else if(squares.includes('')){
-      status = "Next player: " + (xIsNext ? "X" : "O");
+      status = "次のプレイヤー : " + (xIsNext ? "X" : "O");
     }
   
     return (
