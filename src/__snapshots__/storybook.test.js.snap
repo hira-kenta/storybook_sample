@@ -1,0 +1,552 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots tic-tac-toe/Board Default 1`] = `
+Array [
+  <div
+    className="status"
+  >
+    次のプレイヤー : X
+  </div>,
+  <div
+    className="board-row"
+  >
+    <button
+      className="square"
+      onClick={[Function]}
+    />
+    <button
+      className="square"
+      onClick={[Function]}
+    />
+    <button
+      className="square"
+      onClick={[Function]}
+    />
+  </div>,
+  <div
+    className="board-row"
+  >
+    <button
+      className="square"
+      onClick={[Function]}
+    />
+    <button
+      className="square"
+      onClick={[Function]}
+    />
+    <button
+      className="square"
+      onClick={[Function]}
+    />
+  </div>,
+  <div
+    className="board-row"
+  >
+    <button
+      className="square"
+      onClick={[Function]}
+    />
+    <button
+      className="square"
+      onClick={[Function]}
+    />
+    <button
+      className="square"
+      onClick={[Function]}
+    />
+  </div>,
+]
+`;
+
+exports[`Storyshots tic-tac-toe/Board Filled With Triangle 1`] = `
+Array [
+  <div
+    className="status"
+  >
+    Draw...
+  </div>,
+  <div
+    className="board-row"
+  >
+    <button
+      className="square"
+      onClick={[Function]}
+    >
+      △
+    </button>
+    <button
+      className="square"
+      onClick={[Function]}
+    >
+      △
+    </button>
+    <button
+      className="square"
+      onClick={[Function]}
+    >
+      △
+    </button>
+  </div>,
+  <div
+    className="board-row"
+  >
+    <button
+      className="square"
+      onClick={[Function]}
+    >
+      △
+    </button>
+    <button
+      className="square"
+      onClick={[Function]}
+    >
+      △
+    </button>
+    <button
+      className="square"
+      onClick={[Function]}
+    >
+      △
+    </button>
+  </div>,
+  <div
+    className="board-row"
+  >
+    <button
+      className="square"
+      onClick={[Function]}
+    >
+      △
+    </button>
+    <button
+      className="square"
+      onClick={[Function]}
+    >
+      △
+    </button>
+    <button
+      className="square"
+      onClick={[Function]}
+    >
+      △
+    </button>
+  </div>,
+]
+`;
+
+exports[`Storyshots tic-tac-toe/Board Playing 1`] = `
+Array [
+  <div
+    className="status"
+  >
+    次のプレイヤー : O
+  </div>,
+  <div
+    className="board-row"
+  >
+    <button
+      className="square"
+      onClick={[Function]}
+    >
+      X
+    </button>
+    <button
+      className="square"
+      onClick={[Function]}
+    >
+      O
+    </button>
+    <button
+      className="square"
+      onClick={[Function]}
+    >
+      X
+    </button>
+  </div>,
+  <div
+    className="board-row"
+  >
+    <button
+      className="square"
+      onClick={[Function]}
+    >
+      O
+    </button>
+    <button
+      className="square"
+      onClick={[Function]}
+    >
+      X
+    </button>
+    <button
+      className="square"
+      onClick={[Function]}
+    />
+  </div>,
+  <div
+    className="board-row"
+  >
+    <button
+      className="square"
+      onClick={[Function]}
+    />
+    <button
+      className="square"
+      onClick={[Function]}
+    />
+    <button
+      className="square"
+      onClick={[Function]}
+    />
+  </div>,
+]
+`;
+
+exports[`Storyshots tic-tac-toe/Board Winning Of Circle 1`] = `
+Array [
+  <div
+    className="status"
+  >
+    Winner: O
+  </div>,
+  <div
+    className="board-row"
+  >
+    <button
+      className="square win"
+      onClick={[Function]}
+    >
+      O
+    </button>
+    <button
+      className="square"
+      onClick={[Function]}
+    >
+      X
+    </button>
+    <button
+      className="square"
+      onClick={[Function]}
+    >
+      O
+    </button>
+  </div>,
+  <div
+    className="board-row"
+  >
+    <button
+      className="square win"
+      onClick={[Function]}
+    >
+      O
+    </button>
+    <button
+      className="square"
+      onClick={[Function]}
+    >
+      X
+    </button>
+    <button
+      className="square"
+      onClick={[Function]}
+    >
+      X
+    </button>
+  </div>,
+  <div
+    className="board-row"
+  >
+    <button
+      className="square win"
+      onClick={[Function]}
+    >
+      O
+    </button>
+    <button
+      className="square"
+      onClick={[Function]}
+    />
+    <button
+      className="square"
+      onClick={[Function]}
+    >
+      X
+    </button>
+  </div>,
+]
+`;
+
+exports[`Storyshots tic-tac-toe/Board Winning Of Cross 1`] = `
+Array [
+  <div
+    className="status"
+  >
+    Winner: X
+  </div>,
+  <div
+    className="board-row"
+  >
+    <button
+      className="square"
+      onClick={[Function]}
+    >
+      X
+    </button>
+    <button
+      className="square"
+      onClick={[Function]}
+    >
+      O
+    </button>
+    <button
+      className="square win"
+      onClick={[Function]}
+    >
+      X
+    </button>
+  </div>,
+  <div
+    className="board-row"
+  >
+    <button
+      className="square"
+      onClick={[Function]}
+    >
+      O
+    </button>
+    <button
+      className="square win"
+      onClick={[Function]}
+    >
+      X
+    </button>
+    <button
+      className="square"
+      onClick={[Function]}
+    >
+      O
+    </button>
+  </div>,
+  <div
+    className="board-row"
+  >
+    <button
+      className="square win"
+      onClick={[Function]}
+    >
+      X
+    </button>
+    <button
+      className="square"
+      onClick={[Function]}
+    />
+    <button
+      className="square"
+      onClick={[Function]}
+    />
+  </div>,
+]
+`;
+
+exports[`Storyshots tic-tac-toe/Game Default 1`] = `
+<div
+  className="game"
+>
+  <div
+    className="game-board"
+  >
+    <div
+      className="status"
+    >
+      次のプレイヤー : X
+    </div>
+    <div
+      className="board-row"
+    >
+      <button
+        className="square"
+        onClick={[Function]}
+      />
+      <button
+        className="square"
+        onClick={[Function]}
+      />
+      <button
+        className="square"
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="board-row"
+    >
+      <button
+        className="square"
+        onClick={[Function]}
+      />
+      <button
+        className="square"
+        onClick={[Function]}
+      />
+      <button
+        className="square"
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="board-row"
+    >
+      <button
+        className="square"
+        onClick={[Function]}
+      />
+      <button
+        className="square"
+        onClick={[Function]}
+      />
+      <button
+        className="square"
+        onClick={[Function]}
+      />
+    </div>
+  </div>
+  <div
+    className="game-info"
+  >
+    <button
+      onClick={[Function]}
+    >
+      ASC
+    </button>
+    <ol>
+      <li>
+        <b>
+          You are at move #0
+        </b>
+      </li>
+    </ol>
+  </div>
+</div>
+`;
+
+exports[`Storyshots tic-tac-toe/History Default 1`] = `
+Array [
+  <button
+    onClick={[Function]}
+  >
+    ASC
+  </button>,
+  <ol>
+    <li>
+      <b>
+        You are at move #0
+      </b>
+    </li>
+  </ol>,
+]
+`;
+
+exports[`Storyshots tic-tac-toe/History Playing 1`] = `
+Array [
+  <button
+    onClick={[Function]}
+  >
+    ASC
+  </button>,
+  <ol>
+    <li>
+      <button
+        onClick={[Function]}
+      >
+        Go to game start
+      </button>
+    </li>
+    <li>
+      <button
+        onClick={[Function]}
+      >
+        Go to move #1
+      </button>
+    </li>
+    <li>
+      <button
+        onClick={[Function]}
+      >
+        Go to move #2
+      </button>
+    </li>
+    <li>
+      <button
+        onClick={[Function]}
+      >
+        Go to move #3
+      </button>
+    </li>
+    <li>
+      <button
+        onClick={[Function]}
+      >
+        Go to move #4
+      </button>
+    </li>
+    <li>
+      <b>
+        You are at move #5(2,3)
+      </b>
+    </li>
+  </ol>,
+]
+`;
+
+exports[`Storyshots tic-tac-toe/SortButton Default 1`] = `
+<button
+  onClick={[Function]}
+>
+  ASC
+</button>
+`;
+
+exports[`Storyshots tic-tac-toe/SortButton Desc 1`] = `
+<button
+  onClick={[Function]}
+>
+  DESC
+</button>
+`;
+
+exports[`Storyshots tic-tac-toe/Square Circle 1`] = `
+<button
+  className="square"
+>
+  O
+</button>
+`;
+
+exports[`Storyshots tic-tac-toe/Square Cross 1`] = `
+<button
+  className="square"
+>
+  X
+</button>
+`;
+
+exports[`Storyshots tic-tac-toe/Square Default 1`] = `
+<button
+  className="square"
+/>
+`;
+
+exports[`Storyshots tic-tac-toe/Square Triangle 1`] = `
+<button
+  className="square"
+>
+  △
+</button>
+`;
+
+exports[`Storyshots tic-tac-toe/Square Winning 1`] = `
+<button
+  className="square win"
+>
+  X
+</button>
+`;
