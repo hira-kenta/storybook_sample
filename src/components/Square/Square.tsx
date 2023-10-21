@@ -14,10 +14,15 @@ type Props = {
  * @returns 
  */
 const Square = ({isWinning, value, onSquareClick}: Props) => {
-  const className = isWinning ? "square win" : "square";
+  const getClassName = () => {
+    if(value != ''){
+      return isWinning ? "square win" : "square filled"
+    }
+    return "square";
+  }
     return (
       <button 
-        className={className}
+        className={getClassName()}
         onClick={onSquareClick}
       >
           {value}
