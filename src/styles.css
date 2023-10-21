@@ -90,6 +90,9 @@
   }
 
   .win {
-    background: #f66
+    background: #f66;
   }
   
+  .filled {
+    color: #FF0000;
+  }
